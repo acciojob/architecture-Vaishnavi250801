@@ -1,16 +1,97 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Information</title>
+    <style>
+        /* General Page Styling */
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            width: 1100px;
+            padding: 20px;
+        }
+
+        /* Image Container Styling */
+        .imageContainer {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .firstColumn, .lastColumn {
+            width: 200px;
+        }
+
+        .middleColumn {
+            width: 600px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="content">
+        
+        <!-- Image Container -->
+        <div class="imageContainer">
+            <img src="https://via.placeholder.com/800x400" alt="Architecture Image">
+        </div>
 
+        <!-- Table Structure -->
+        <table>
+            <!-- Row 1 -->
+            <tr>
+                <td class="firstColumn">
+                    <img src="https://via.placeholder.com/200" alt="Left Image 1">
+                </td>
+                <td class="middleColumn">
+                    <p>Text content related to architectural information, exploring various aspects of design, structure, and style.</p>
+                </td>
+                <td class="lastColumn">
+                    <img src="https://via.placeholder.com/200" alt="Right Image 1">
+                </td>
+            </tr>
+            
+            <!-- Row 2 -->
+            <tr>
+                <td class="firstColumn">
+                    <img src="https://via.placeholder.com/200" alt="Left Image 2">
+                </td>
+                <td class="middleColumn">
+                    <p>Detailed description of architectural elements, focusing on innovative materials and building techniques.</p>
+                </td>
+                <td class="lastColumn">
+                    <img src="https://via.placeholder.com/200" alt="Right Image 2">
+                </td>
+            </tr>
+        </table>
+
+    </div>
 </body>
-
 </html>
+
